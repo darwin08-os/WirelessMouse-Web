@@ -1,0 +1,45 @@
+
+@media screen and (max-width: 767px){
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 94vw;
+	height: 90vh;
+	border: 1px solid black;
+	
+}
+
+.main .row{
+	width: 100%;
+	display: flex;
+}
+
+.left ,.right{
+	flex: 1;
+}
+
+.left{
+	height: 22vh;
+	background: black;
+}
+.right{
+	height: 22vh;
+	background: red;
+}
+.track{
+	width: 100%;
+	height: calc(100% - 22vh);
+	background: blue;
+}
+
+
+
+
+}
